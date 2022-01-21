@@ -63,4 +63,3 @@ INNER JOIN PortfolioProjectCovid..['covidvaccined'] AS vac
 ON vac.location = dea.location AND vac.date = dea.date
 WHERE dea.location IN ('Indonesia', 'Malaysia','Singapore','Thailand','Philip%')
 ORDER BY location, date ASC
-
